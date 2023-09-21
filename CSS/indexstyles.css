@@ -57,9 +57,9 @@ nav div:nth-child(2) a:hover{
   background-color:#198754;
 }
 
-.navbar-nav{
+/*.navbar-nav{
   height: 10vh;
-}
+}*/
 li{
   width: 6vw;
   font-size: 100% !important;
