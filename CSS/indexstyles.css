@@ -48,23 +48,21 @@ nav div:nth-child(2) a{
   color:white;
   font-size: 1em;
   padding: 1em;
-  border-color: #198754;
   text-transform: uppercase;
 }
 nav div:nth-child(2) a:hover{
   border-radius: 10px;
-  border-color: #198754;
   background-color:#198754;
 }
 nav{
   background-color: rgba(31,30,30,0.24) !important;
 }
-/*.navbar{
+.navbar{
   background: rgba(31, 30, 30, 0.808) !important;
 }
 .navbar-nav{
   height: 10vh;
-}*/
+}
 li{
   width: 6vw;
   font-size: 100% !important;
