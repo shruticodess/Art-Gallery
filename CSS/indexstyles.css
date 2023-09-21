@@ -21,7 +21,7 @@ header{
   position: fixed;
   z-index: 1000;
   left: 0;
-  top: 10em;
+  top: 0;
   height: auto;
   width: 100vw;
   background-color: rgb(31,30,30,0.24);
@@ -70,7 +70,7 @@ li{
 #icon{
 position: absolute;
 bottom: 50%;
-top: -120%;
+top: 50%;
 display: inline;
 }
 
