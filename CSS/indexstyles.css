@@ -59,9 +59,7 @@ nav div:nth-child(2) a:hover{
 nav{
   background-color: rgba(31,30,30,0.24) !important;
 }
-.navbar{
-  background: rgba(31, 30, 30, 0.808) !important;
-}
+
 .navbar-nav{
   height: 10vh;
 }
