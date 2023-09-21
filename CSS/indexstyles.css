@@ -41,10 +41,10 @@ header{
 }
 nav div:nth-child(2) li{
   display: inline-block;
-  margin: 1em;
+  
 }
 nav div:nth-child(2) a{
-  color:black;
+  color:white;
   font-size: 1em;
   padding: 1em;
   border-color: #198754;
@@ -58,12 +58,12 @@ nav div:nth-child(2) a:hover{
 nav{
   background-color: rgba(31,30,30,.24) !important;
 }
-.navbar{
+/*.navbar{
   background: rgba(31, 30, 30, 0.808) !important;
 }
 .navbar-nav{
   height: 10vh;
-}
+}*/
 li{
   width: 6vw;
   font-size: 100% !important;
