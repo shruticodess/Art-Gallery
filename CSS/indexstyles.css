@@ -70,7 +70,7 @@ li{
 #icon{
 position: absolute;
 bottom: 50%;
-top: -120%;
+top: 50%;
 display: inline;
 padding-top:40px;
 }
