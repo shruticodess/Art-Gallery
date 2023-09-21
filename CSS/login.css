@@ -26,6 +26,9 @@ input{
 button{
     padding: 0px;
 }
+.bg-dark{
+	background-color:rgba(31,30,30,0.24) !important;
+}
 .form-control{
   padding: 10px;
 }
