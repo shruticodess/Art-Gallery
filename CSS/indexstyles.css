@@ -53,7 +53,7 @@ nav div:nth-child(2) a{
 nav div:nth-child(2) a:hover{
   border-radius: 10px;
   border-color: #198754;
-  background:#198754;
+  background-color:#198754;
 }
 nav{
   background-color: rgba(31,30,30,0.24) !important;
