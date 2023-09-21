@@ -1,0 +1,47 @@
+body{
+    background-color: #182140;
+}
+.navigation{
+    margin-bottom: 15px !important;
+    opacity: 0.9;
+    background-color: #182140 !important;
+    
+}
+#header{
+    margin-right: 0em;
+    margin-top: 0.4% !important;
+}
+h1{
+    color: #E1C8D8;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+h2{
+    text-align: center;
+    color: #E1C8D8;
+    
+}
+.card{
+    margin-left: 10px;
+}
+
+#drawing1-def, #drawing2-def, #drawing3-def, #photo1-def, #photo2-def, #photo3-def,
+#sculpt1-def, #sculpt2-def, #sculpt3-def, #paper1-def, #paper2-def, #paper3-def,
+#deco1-def, #deco2-def, #deco3-def{
+    display: none;
+
+}
+p{
+    color:#ffffff;
+    text-align: center;
+}
+h4{
+    color: #f8c291;
+    text-align: center
+}
+/* #photo1,  #photo2, #photo3, #deco1, #deco2, #deco3,
+#paper1, #paper2, #paper3, #sculpt1, #sculpt2, #sculpt3,
+#drawing1, #drawing2, #drawing3{
+    box-shadow: 5px 5px #f8c291;
+} */

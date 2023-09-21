@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  height: 100%;
+  vertical-align: middle;
+  justify-content: center;
+  width: 100%;
+}
+header{
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  height: auto;
+  width: 100vw;
+  background-color: rgb(31,30,30,0.24);
+}
+#header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navbar{
+  background: rgba(31, 30, 30, 0.808) !important;
+}
+.navbar-nav{
+  height: 10vh;
+}
+li{
+  width: 6vw;
+  font-size: 100% !important;
+}
+#icon{
+position: absolute;
+bottom: 50%;
+top: -120%;
+}
+
+
+section{
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100vw;
+  scroll-snap-align: start;
+}
+h1,.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) ;
+}
+.container-fluid{
+  height: 100vh;
+  scroll-behavior: smooth;
+  width: 100vw;
+  padding: 0;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+#heading{
+  background: url(../images/art2.jpeg);
+}
+.whatwe{
+  color: white;
+  background-color: #182140;
+}
+.request{
+  background: url(../indeximages/steve-johnson-YS0YJLU_h2k-unsplash.jpg);
+  background-size: cover;
+  color: black;
+}
+.person-2 img{
+  display: flex ;
+  justify-content: center;
+}
+
+form, p{
+  font-size: 170%;
+}
+.kindly{
+  font-size: 100%;
+}
+h1{
+  background-color: rgba(24, 33, 64, 50%);
+  color: rgb(255, 255, 255);
+  box-shadow: 10px white;
+  padding: 2%;
+  font-size: 400%;
+  font-family: Poppins;
+}
+h2{
+  background-color: rgba(217, 230, 230, 0.164);
+  color: #000000;
+  box-shadow: 10px white;
+  font-size: 400%;
+  font-family: Poppins;
+}
+.whatwe-title{
+  color: white;
+}
+#SUBMIT{
+  width: 8%;
+}
+.slots{
+  background-color: #182140;
+  color: white;
+}
+::placeholder{
+  color: aliceblue;
+}
+#mce-MESSAGE{
+  height: 200px;
+  width: 100vw;
+  font-size:x-large;
+}
+.image{
+  height: 50px;
+}
+
+.col-md-4{
+height: 50px;
+width: 50px;
+}
+.contact-table{
+  margin:auto 0;
+  position: absolute;
+  left: 33%;
+}
+.contact{
+background: url(../indeximages/Gaspar\ Uhas.jpg);
+background-size: cover;
+
+}
+.makesure{
+  color: aliceblue;
+}
+
+@media screen and (max-width:768px) {
+  .links{
+    width: 40%;
+  }
+  .contact-table{
+    left: 30%;
+  }
+}
+

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- -----------------------Google fonts-------------------------- -->
+
+        <!-- ---------------------------End------------------------------- -->
+
+        <!-- -------------------------Jquey CDN----------------------- -->
+        <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+        <!-- ----------------------------End---------------------------- -->
+
+        <!-- -------------------------Bootstrap CDN----------------------- -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <!-- -----------------------------End--------------------------- -->
+
+        <!-- ---------------------Custom Styles---------------------------- -->
+        <link rel="stylesheet" href="./css/login.css">
+        <link rel="stylesheet" href="./CSS/about.css">
+        <!-- ---------------------------End-------------------------------- -->
+        <title>Art-Gallery</title>
+    </head>
+    <body>
+        <!-- ------------------------Header section-------------------------- -->
+        <section class="container-fluid">
+            <header>
+                <nav class="navbar navbar-expand-sm navbar-dark  fixed-top">
+                    <div class="col-md-4">
+                        <div id="icon">
+                            <img src="./images/OGO.jpg" height="130px" alt="">
+                        </div>
+                        
+                    </div>
+                    <div class="collapse mb-0 h4 nav justify-content-end navbar-collapse" id="header" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item btn btn-outline-success">
+                                <a class="nav-link" href="index.html"><strong>Home</strong></a>
+                            </li>
+
+                            <li class="nav-item btn btn-outline-success">
+                                <a class="nav-link" href="login.html"><strong>Login</strong></a>
+                            </li>  
+
+                            <li class="nav-item btn btn-outline-success">
+                                <a class="nav-link" href="gallery.html"><strong>Gallery</strong></a>
+                            </li>
+
+                            <li class="nav-item btn btn-outline-success">
+                                <a class="nav-link" href="about.html"><strong>About</strong></a>
+                            </li> 
+                            
+                        </ul>
+                    </div>
+                </nav>
+            </header> 
+        </section>
+        <!-- --------------------------End---------------------------- -->
+
+
+        <!-- -------------------Introduction section---------------------- -->
+        <section class="container-fluid intro">
+            <div id="intro">
+                <div>
+                    <h1>One Stop for</h1>
+                    <h2>Your Art Pictures.</h2>
+                </div>
+            </div>
+        </section>
+        <!-- -----------------------------End---------------------------- -->
+
+        <!-- -------------------------Founder section----------------- -->
+        <section class="container">
+            <div id="founders-description">
+                <h2 class="heading">About-Us</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia culpa, quaerat corrupti incidunt unde ut temporibus, nesciunt cupiditate eaque beatae nobis officiis optio tempora modi quisquam sint! Error, possimus ipsam!
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus amet libero nesciunt placeat nostrum voluptate atque fuga iusto laboriosam eius. Laborum dolores, soluta id minima laudantium cupiditate at ipsa nam.
+                </p>
+            </div>
+            <div id="individuals">
+                <h2 class="heading">Founders</h1>
+                <div class="row" >
+                    <div id="person-1" class="cl-img col-lg-4">
+                        <img src="./images/a3.png" style="height: 150px; width: 150px;left:300px" alt="person-1">
+
+                        <p id="p1">
+                            Hello there,<br>
+                            My name is Max,<br>
+                            A full stack developer,<br>
+                            specializing in python,flask and Django stack.
+                        </p>
+                        <p>
+                            <button id="b1" type="button" class="btn btn-info">Info</button>
+                        </p>
+                    </div>
+                    <div id="person-2" class="col-lg-4">
+                        <img src="./images/a3.png" style="height: 150px; width: 150px;right:300px" alt="person-2">
+                        <p id="p2">
+
+                            Hello there,<br>
+                            My name is Louis,<br>
+                            A full stack developer,<br>
+                            specializing in python,flask and Django stack.
+                        </p>
+                        <p>
+                            <button id="b2" type="button" class="btn btn-info">Info</button>
+                        </p>
+                    </div>
+                    <div id="person-3" class="col-lg-4">
+                        <img src="./images/a3.png" style="height: 150px; width: 150px;right:300px" alt="person-2">
+                        <p id="p3">
+
+                            Hello there,<br>
+                            My name is Shruti,<br>
+                            A full stack developer,<br>
+                            specializing in python,flask and MongoDb stack.
+                        </p>
+                        <p>
+                            <button id="b3" type="button" class="btn btn-info">Info</button>
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- -------------------------End Founder section----------------- -->
+
+        <!-- ------------Testimonial section-------------------------- -->
+        
+        <section id="testimonials">
+            <h2 class="heading">Testimonials</h2>
+            <div class="container">
+                <div id="slider" class="owl-carousel">
+                <div class="content-area">
+                    <div class="content">
+                    <div class="img-area"><img src="./images/wolf.jpeg" alt="wolf-image"></div>
+                    <h2>Alpha Wolf</h2>
+                    <p>Through this site,I was able to get many followers on my social accounts in less than a month.</p>
+                    <p class="socials">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-behance"></i></a>
+                        <a href="#"><i class="fa fa-youtube"></i></a>
+                        <a href="#"><i class="fa fa-whatsapp"></i></a>
+                    </p>
+                    </div>
+                </div>
+                <div class="content-area">
+                    <div class="content">
+                    <div class="img-area"><img src="./images/a.jpeg" alt="art-1"></div>
+                    <h2>Footprint</h2>
+                    <p>The site is authentic and legit.The country needs more brains like yours.</p>
+                    <p class="socials">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-behance"></i></a>
+                        <a href="#"><i class="fa fa-youtube"></i></a>
+                        <a href="#"><i class="fa fa-whatsapp"></i></a>
+                    </p>
+                    </div>
+                </div>
+                <div class="content-area">
+                    <div class="content">
+                    <div class="img-area"><img src="./images/b.jpeg" alt="art-2"></div>
+                    <h2>Jasmine</h2>
+                    <p>As a singer,I was recently nominated as an upcoming artist thanks to the site.</p>
+                    <p class="socials">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-behance"></i></a>
+                        <a href="#"><i class="fa fa-youtube"></i></a>
+                        <a href="#"><i class="fa fa-whatsapp"></i></a>
+                    </p>
+                    </div>
+                </div>
+                <div class="content-area">
+                    <div class="content">
+                    <div class="img-area"><img src="./images/e.jpeg" alt="art-3"></div>
+                    <h2>Da Artist</h2>
+                    <p>My paintings are now selling after I posted them in the site.Thank you guys.</p>
+                    <p class="socials">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-behance"></i></a>
+                        <a href="#"><i class="fa fa-youtube"></i></a>
+                        <a href="#"><i class="fa fa-whatsapp"></i></a>
+                    </p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <!-- ------------End Testimonial section-------------------------- -->
+
+        <!-- -----------------------Footer Section------------------- -->
+        <section class="container-fluid">
+            <footer class="row">
+                <div id="copy-right" class="col-lg-5">
+                    <h5>Art-Gallery &copy;2023</h5>
+                    <h6>Terms & condition apply</h6>
+                </div>
+                <div id="social" class="col-lg-5">
+                    <h5>Follow us on</h5>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+                </div>
+            </footer>
+        </section>
+        <!-- -----------------------Footer Section------------------- -->
+
+        <!-- --------------------js scripts link----------------------- -->
+        <script src="./js/login.js"></script>
+        <script src="./js/about.js"></script>
+        <!-- -------------------------End------------------------------- -->
+        <!-- nelly.gyamfi@moringaschool.com -->
+    </body>
+</html>
