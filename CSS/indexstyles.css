@@ -37,11 +37,11 @@ header{
 }
 #logo img{
   height: 10em;
-  width:10em;
+  width:1em;
 }
 nav div:nth-child(2) li{
   display: inline-block;
-  
+  margin:1rem;
 }
 nav div:nth-child(2) a{
   color:white;
@@ -56,7 +56,7 @@ nav div:nth-child(2) a:hover{
   background:#198754;
 }
 nav{
-  background-color: rgba(31,30,30,.24) !important;
+  background-color: rgba(31,30,30,0.24) !important;
 }
 /*.navbar{
   background: rgba(31, 30, 30, 0.808) !important;
