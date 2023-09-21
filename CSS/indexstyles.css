@@ -71,6 +71,7 @@ li{
 position: absolute;
 bottom: 50%;
 top: -120%;
+display: inline;
 }
 
 
