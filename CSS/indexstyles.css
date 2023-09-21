@@ -67,7 +67,7 @@ li{
 #icon{
 position: absolute;
 bottom: 50%;
-top: -50%;
+top: -100%;
 display: inline;
 padding-top:40px;
 }
